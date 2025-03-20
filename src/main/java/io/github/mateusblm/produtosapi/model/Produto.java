@@ -6,7 +6,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 // POJO -> PLAIN OLD JAVA OBJECT
-
+//Classe Modelo de negócios, dados de negócios
 @Entity
 @Table(name = "produto")
 public class Produto {
