@@ -6,7 +6,7 @@ Bem-vindo ao repositório da **API de Produtos!** Este projeto foi desenvolvido 
 - **Leitura de Produtos**: Visualize detalhes dos produtos existentes.
 - **Atualização de Produtos**: Edite informações de produtos existentes.
 - **Exclusão de Produtos**: Remova produtos do sistema.
-- 
+  
 ## Tecnologias Utilizadas
 Java
 Spring Boot
@@ -14,11 +14,11 @@ H2 DB
 Postman
 
 ### Endpoints Principais
-GET /produtos: Retorna a lista de todos os produtos.
-POST /produtos: Adiciona um novo produto.
-GET /produtos/:id: Retorna os detalhes de um produto específico.
-PUT /produtos/:id: Atualiza as informações de um produto específico.
-DELETE /produtos/:id: Remove um produto específico.
+- GET /produtos: Retorna a lista de todos os produtos.
+- POST /produtos: Adiciona um novo produto.
+- GET /produtos?nome=: Retorna os detalhes de um produto específico.
+- PUT /produtos/:id: Atualiza as informações de um produto específico.
+- DELETE /produtos/:id: Remove um produto específico.
 
 
 ### Configuração do Ambiente
